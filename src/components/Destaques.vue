@@ -13,9 +13,8 @@
 				<v-flex md7 sm12 >
 					<v-layout row wrap>
 						<v-flex md6 sm6 xs12 pr-2 pb-2 v-for="striking in strikings.column1" v-bind:key="striking.link">
-							<div data-aos="flip-up" data-aos-delay="100">
 								<v-card v-bind:key="striking.title">
-									<v-img :src="striking.img" height="284px">
+									<v-img :src="striking.img" height="248px">
 										<v-container fill-height fluid pa-2>
 											<v-layout fill-height>
 												<v-flex xs12 align-end flexbox>
@@ -28,15 +27,14 @@
 										</v-container>
 									</v-img>
 								</v-card>
-							</div>
 						</v-flex>
 					</v-layout>
 				</v-flex>
 
 				<!-- Destaques da Direita -->
 				<v-flex md5>
-					<v-toolbar color="blue darken-4" dark>
-						<v-toolbar-title class="text-xs-center">Links em úteis</v-toolbar-title>
+					<v-toolbar color="blue darken-3" dark>
+						<v-toolbar-title class="text-xs-center">Links úteis</v-toolbar-title>
 						<v-spacer></v-spacer>
 					</v-toolbar>
 					
@@ -92,7 +90,7 @@
 		fullscreen
 	  	>
 	    <v-card>
-	      <v-toolbar card dark color="blue">
+	      <v-toolbar card dark color="blue darken-3">
 	        <v-icon @click="dialog = !dialog">close</v-icon>
 	      </v-toolbar>
 	    	<v-card-text>
@@ -178,15 +176,14 @@
 
 					column1: [
 					{
-						title: "Guia do usuário",
-						link: "http://www.sibi.ufal.br/normas.html",
+						title: "Renovação",
+						link: "http://www.sibi.ufal.br/pergamum/mobile/index.php",
 						img: require('../assets/images/destaques/1.jpg')
 					},
-
 					{
-						title: "Como localizar um livro?",
-						link: "http://www.sibi.ufal.br/como_localizar_um_livro.pdf",
-						img: require('../assets/images/destaques/2.jpg')
+						title: "Repositório Institucional Campus Arapiraca",
+						link: "https://ud.arapiraca.ufal.br/?db=ud#page=0&limit=&view_type=list&model=ud.biblioteca.publicacao&menu_id=171&action=166",
+						img: require('../assets/images/destaques/2.jpg'),
 					},
 					{
 						title: "Pagamento de multas",
@@ -207,21 +204,12 @@
 						link: "http://www.sibi.ufal.br/pergamum/biblioteca_s/php/login_usu.php?flag=index.php",
 						img: require('../assets/images/consulta.gif')
 					},
-					{
-						title: "Renovação aqui",
-						link: "http://www.sibi.ufal.br/pergamum/mobile/index.php",
-						img: require('../assets/images/consulta.gif')
-					},
+					
 					{
 						title: "Repositório Institucional",
 						link: "http://www.repositorio.ufal.br/",
 						description: 'Reúne a produção científica e acadêmica gerada pela Ufal. Visando a preservação, disseminação.',
 						img: require('../assets/images/repositorio.jpg')
-					},
-					{
-						title: "Repositório Institucional Campus Arapiraca",
-						link: "https://ud.arapiraca.ufal.br/?db=ud#page=0&limit=&view_type=list&model=ud.biblioteca.publicacao&menu_id=171&action=166",
-						img: require('../assets/images/logo-ud.png'),
 					},
 					{
 						title: "Doações",
@@ -236,10 +224,21 @@
 						img: require('../assets/images/solicitar.gif')
 					},
 					{
-						title: "Normas para deposito de TCC",
+						title: "Padrão UFAL de Normatização",
 						link: "http://www.sibi.ufal.br/Padrao_Ufal_de_Normatizacao.pdf",
 						description: 'Guia baseado nas diretrizes da ABNT, para normalização dos trabalhos acadêmicos.',
 						img: require('../assets/images/normas.gif')
+					},
+					{
+						title: "Normas para depósito de TCC",
+						link: "http://www.ufal.edu.br/arapiraca/institucional/biblioteca/orientacao-normativa-001-de-14-de-abril-de-2016/view",
+						description: 'Guia baseado nas diretrizes da ABNT, para normalização dos trabalhos acadêmicos.',
+						img: require('../assets/images/tcc.jpg')
+					},
+					{
+						title: "Guia do usuário",
+						link: "http://www.sibi.ufal.br/normas.html",
+						img: require('../assets/images/guia.png')
 					},
 					]
 				}

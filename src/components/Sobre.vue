@@ -9,7 +9,7 @@
 
       <v-layout row wrap>
        
-        <v-flex md6 >
+        <v-flex md5>
          
             <p>O sistema de bibliotecas da Universidade Federal de Alagoas (SIBI-UFAL) surgiu a partir da resolução nº 45/89 do Conselho Universitário, de 09 de novembro de 1989.
               <v-chip small color="blue darken-3" text-color="white" @click="dialog = true; info1 = true;">
@@ -26,7 +26,7 @@
           
         </v-flex>
 
-         <v-flex md4 offset-md2>
+         <v-flex md6 offset-md1>
             <img src="../assets/images/organizacao.svg">
         </v-flex>
     </v-layout>
@@ -41,7 +41,7 @@
     scrollable
   >
     <v-card tile>
-      <v-toolbar card dark color="grey darken-3">
+      <v-toolbar card dark color="blue darken-3">
         <v-btn icon dark @click.native="resetDialog()">
           <v-icon>close</v-icon>
         </v-btn>

@@ -11,14 +11,13 @@
 				<v-flex md12>
 					<v-layout row wrap>
 						<v-flex md2 class="utility" v-for="utility in utilities" v-bind:key="utility.id" >
-							<div class="" data-aos="slide-right"  data-aos-delay="100" >
+							
 								<v-tooltip top max-width="250">
 									<a slot="activator" :href="utility.link">
 										<img :src="utility.image" :alt="utility.title">
 									</a>
 									<span>{{utility.title}}</span>
 								</v-tooltip>
-							</div>
 						</v-flex>
 					</v-layout>
 				</v-flex>

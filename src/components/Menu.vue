@@ -2,13 +2,16 @@
   <div id="header-menu">
     <div id="header">
       <v-container>
-        <v-layout row wrap justify-center>
-          <v-flex md12 id="header-logo">
+        <v-layout row justify-center>
+          <v-flex md12 id="header-logo" mb-4>
             <div data-aos="slide-down">
-              <img src="../assets/images/h-1-l.svg">
+              <img src="../assets/images/bca-logo.svg">
             </div>
           </v-flex>
         </v-layout>
+       
+              
+       
       </v-container>
     </div>
 

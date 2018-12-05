@@ -185,7 +185,19 @@
 							expand: false,
 						},
 					]},
-					{ name: "Palmeira dos Indios", expand: true, employees: []},
+					{ name: "Palmeira dos Indios", expand: true, employees: [
+						{
+							name: " Kassandra Kallyna Nunes de Souza",
+							photo: require("../assets/images/servidores/palmeira_dos_indios/kassandra.png"),
+							role: "Bibliotecária / Documentalista",
+							information: [
+								"Graduada em Biblioteconomia pela Universidade Federal de Pernambuco (UFPE);",
+								"Especialista em Biblioteconomia pela Faculdade Internacional Signorelli (FIS); ",
+								"Mestranda em Ciência da Educação pela Universidade Autónoma de Assunção (Paraguai)."
+							],
+							expand: false,
+						},
+					]},
 					{ name: "Viçosa", expand: true, employees: [
 						{
 							name: "Edvânia Cosmo da S. Gonçalves",

@@ -1,6 +1,6 @@
 <template>
   <v-flex md4 sm6 md3 pr-1 pl-1 pb-1 pt-1>
-    <div class="" data-aos="flip-left" data-aos-delay="200">
+    <div>
       <v-card color="blue darken-3" class="white--text">
 
         <v-layout row justify-center style="padding-top: 20px;">
